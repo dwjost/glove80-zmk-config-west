@@ -3,6 +3,8 @@ manifest:
     - name: moergo-sc
       url-base: https://github.com/moergo-sc
   projects:
+    - name: Upgrade west
+      run: pip install --upgrade west   
     - name: zmk
       remote: moergo-sc
       revision: main
